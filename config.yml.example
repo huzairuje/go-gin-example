@@ -1,0 +1,6 @@
+ServerPort: ":3010"
+DatabaseHost: "localhost"
+DatabasePort: "5432"
+DatabaseUser: "postgres"
+DatabasePassword: "postgres"
+DatabaseName: "loan_process"
