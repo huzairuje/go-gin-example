@@ -19,7 +19,7 @@ func ConnectDB(config *config.Config) *sql.DB {
 	dbName := config.DatabaseName
 
 	var connection string
-	if dbHost != "" ||  dbPort != ""  || dbUser != "" || dbPass != "" || dbName != "" {
+	if dbHost != "" || dbPort != "" || dbUser != "" || dbPass != "" || dbName != "" {
 		logrus.Info(utils.DatabaseConfigSet)
 		connection = fmt.Sprintf("postgres://%s:%s@%s:%s/%s", dbUser, dbPass, dbHost, dbPort, dbName)
 	} else {

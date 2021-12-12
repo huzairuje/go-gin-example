@@ -10,7 +10,7 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
-func main()  {
+func main() {
 	//load config from config.yml
 	loadCfg := config.LoadConfig()
 	//initiate database connection

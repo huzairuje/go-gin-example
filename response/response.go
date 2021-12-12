@@ -49,7 +49,7 @@ type Paging struct {
 }
 
 func SingleData(c *gin.Context, message string, data interface{}) {
-	c.JSON(http.StatusOK,Single{
+	c.JSON(http.StatusOK, Single{
 		Meta: Meta{
 			Code:    http.StatusOK,
 			Message: message,

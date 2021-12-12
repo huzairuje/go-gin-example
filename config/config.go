@@ -8,12 +8,12 @@ import (
 
 //Config is models that represent configuration on application
 type Config struct {
-	ServerPort             string
-	DatabasePort           string
-	DatabaseUser           string
-	DatabasePassword       string
-	DatabaseHost           string
-	DatabaseName           string
+	ServerPort       string
+	DatabasePort     string
+	DatabaseUser     string
+	DatabasePassword string
+	DatabaseHost     string
+	DatabaseName     string
 }
 
 var config Config
