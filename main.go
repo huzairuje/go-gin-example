@@ -2,12 +2,13 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
+	"github.com/sirupsen/logrus"
+
 	"github.com/go-gin-example/config"
 	"github.com/go-gin-example/database"
 	loanDomain "github.com/go-gin-example/loan"
 	"github.com/go-gin-example/response"
 	"github.com/go-gin-example/utils"
-	"github.com/sirupsen/logrus"
 )
 
 func main() {

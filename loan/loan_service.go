@@ -2,10 +2,11 @@ package loan
 
 import (
 	"database/sql"
-	"github.com/go-gin-example/utils"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/go-gin-example/utils"
 )
 
 type Service struct {

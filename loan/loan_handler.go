@@ -4,10 +4,11 @@ import (
 	"context"
 	"database/sql"
 	"github.com/gin-gonic/gin"
+	"time"
+
 	"github.com/go-gin-example/response"
 	"github.com/go-gin-example/utils"
 	"github.com/go-gin-example/validator"
-	"time"
 )
 
 type Handler struct {

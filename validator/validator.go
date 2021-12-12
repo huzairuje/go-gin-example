@@ -1,10 +1,11 @@
 package validator
 
 import (
-	"github.com/go-gin-example/utils"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/go-gin-example/utils"
 )
 
 func IsValidProvince(province string) bool {

@@ -3,10 +3,11 @@ package database
 import (
 	"database/sql"
 	"fmt"
-	"github.com/go-gin-example/config"
-	"github.com/go-gin-example/utils"
 	_ "github.com/lib/pq"
 	"github.com/sirupsen/logrus"
+
+	"github.com/go-gin-example/config"
+	"github.com/go-gin-example/utils"
 )
 
 var conn *sql.DB
