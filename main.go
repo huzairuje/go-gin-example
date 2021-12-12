@@ -15,7 +15,7 @@ func main() {
 	loadCfg := config.LoadConfig()
 	//initiate database connection
 	db := database.ConnectDB(loadCfg)
-	//initiate echo App instance
+	//initiate gin instance
 	router := gin.Default()
 	//custom response for not matching routes
 	router.NoRoute(func(c *gin.Context) {
