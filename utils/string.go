@@ -14,7 +14,6 @@ const (
 	LoanProcessIsSuccess             = "Operation Loan Process Is Successfully Executed"
 	NotMatchingAnyRoute              = "Not Matching of Any Routes"
 	SomethingWentWrong               = "Oops, Something Went Wrong"
-	ValidationError                  = "Validation Error"
 	BadRequest                       = "Bad Request"
 	NotFound                         = "Not Found"
 	ProvinceIsNotValid               = "Province Is Not Valid, the suggesting value is (DKI JAKARTA, JAWA BARAT, JAWA TIMUR OR SUMATERA UTARA)"
@@ -29,7 +28,7 @@ const (
 	FailedOpenDb                     = "failed to open database connection, you can't use this connection if you still ignore this error : %v"
 	DatabaseConfigNotSet             = "database config is not set, so we are using default config for postgres connection"
 	DatabaseConfigSet                = "database config is set,we are using your config for postgres connection"
-	ServerPortIsNotSet               = "Server Port is not set in config.yml, so we use default port: 4010"
+	ServerPortIsNotSet               = "Server Port is not set in config.yml, so we use default port: "+DefaultServerPort
 	ServerPortIsSet                  = "Server Port is set in config.yml, so we use from config "
 	Accepted                         = "Accepted"
 	Rejected                         = "Rejected"
